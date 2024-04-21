@@ -1,0 +1,63 @@
+.img-rec{
+    width: 80%;
+    height:auto;
+}
+
+.recepie-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
+}
+
+.recepie{
+    flex:0 0 30%;
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+    list-style-type: none;
+    background-color: #AD4A0E;
+    color: beige;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10%;
+}
+
+hr{
+    color: rgb(0, 0, 0);
+}
+
+.card-img-top{
+    height: 100px;
+    width: 180px;
+    align-content: center;
+    margin-top: 2%;
+    margin-left: 30%;
+}
+
+.card-deck{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    color: #AD4A0E;
+    column-gap: 2%;
+    padding-bottom: 5%;
+}
+
+.card-footer{
+    background-color: #AD4A0E;
+    color: beige;
+    font-weight: 600;
+}
+.card-body{
+    text-align: left;
+}
+.card-title{
+    text-align: center;
+    font-weight: 600;
+}
+.card-text{
+    text-align: center;
+}
